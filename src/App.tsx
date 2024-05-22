@@ -10,7 +10,7 @@ const App = () => {
         <h1 className="text-3xl font-bold text-center text-gray-800">A Dev's Todo List</h1>
         <Form />
         <ul>
-          {todo.map((todo, index) => (
+          {todo.map((todos, index) => (
             <Todo key={index} todos={todos}/>
           ))}
         </ul>
